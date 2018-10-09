@@ -1,6 +1,6 @@
 package tugas;
 
-import java.util.Stack;
+import java.util.*;
 
 
 public class main {
@@ -11,14 +11,14 @@ public class main {
 	kotak main = new kotak();
 		
 	// method setter kotak
-	main.setpanjang(10.23);
-	main.setlebar(4.56);
+	main.setPanjang(10.23);
+	main.setLebar(4.56);
 		
 	// method getter kotak
-	System.out.println("panjang : " + main.getpanjang());
-	System.out.println("lebar : " + main.getlebar());
-	System.out.println("luas : " + main.getpanjang()*main.getlebar());
-	System.out.println("keliling : " + main.getlebar()*main.getpanjang()*main.getlebar()*main.getpanjang());
+	System.out.println("panjang : " + main.getPanjang());
+	System.out.println("lebar : " + main.getLebar());
+	System.out.println("luas : " + main.getPanjang()*main.getlebar());
+	System.out.println("keliling : " + main.Gettlebar()*main.getPanjang()*main.getLebar()*main.getPanjang());
 	
 	System.out.println("*******Object Kelas Kotak*******");
 	//membuat object dari class mahasiswa
@@ -34,13 +34,13 @@ public class main {
 	mahasiswa.beratBadan = "45";
 	
 	//method getter mahasiswa
-	System.out.println("nama : " + mahasiswa.getnama());
-	System.out.println("nim : " + mahasiswa.getnim());
-	System.out.println("alamat : " + mahasiswa.getalamat());
-	System.out.println("golongan Darah : " + mahasiswa.getgolongnDarah());
-	System.out.println("Status : " + mahasiswa.getstatus());
-	System.out.println("tinggi badan : " + mahasiswa.getberatBadan());
-	System.out.println("berat badan : " + mahasiswa.getberatBadan());
+	System.out.println("nama : " + mahasiswa.getNama());
+	System.out.println("nim : " + mahasiswa.getNim());
+	System.out.println("alamat : " + mahasiswa.getAlamat());
+	System.out.println("golongan Darah : " + mahasiswa.getGolongnDarah());
+	System.out.println("Status : " + mahasiswa.getStatus());
+	System.out.println("tinggi badan : " + mahasiswa.getTinggiBadan());
+	System.out.println("berat badan : " + mahasiswa.getBeratBadan());
 
 	System.out.println("*******Object Kelas Kotak*******");
 	//membuat object dari kelas node
